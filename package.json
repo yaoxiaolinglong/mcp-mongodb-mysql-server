@@ -1,0 +1,54 @@
+{
+  "name": "@yaoxiaolinglong/mcp-mongodb-mysql-server",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol server for MySQL and MongoDB database operations. Fork of @enemyrr/mcp-mysql-server with added MongoDB support.",
+  "type": "module",
+  "bin": {
+    "mcp-mongodb-mysql": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mysql",
+    "mongodb",
+    "database",
+    "claude",
+    "anthropic"
+  ],
+  "author": "yaoxiaolinglong",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.5.0",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server",
+  "bugs": {
+    "url": "https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/yaoxiaolinglong"
+  }
+}

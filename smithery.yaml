@@ -1,0 +1,29 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties:
+      databaseUrl:
+        type: string
+        description: The database URL in the format
+          mysql://user:password@host:3306/database.
+      dbHost:
+        type: string
+        default: localhost
+        description: The MySQL host.
+      dbUser:
+        type: string
+        description: The MySQL user.
+      dbPassword:
+        type: string
+        description: The MySQL user password.
+      dbDatabase:
+        type: string
+        description: The MySQL database name.
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({command: 'node', args: ['build/index.js'], env: config.databaseUrl ? { DATABASE_URL: config.databaseUrl } : { DB_HOST: config.dbHost, DB_USER: config.dbUser, DB_PASSWORD: config.dbPassword, DB_DATABASE: config.dbDatabase }})
