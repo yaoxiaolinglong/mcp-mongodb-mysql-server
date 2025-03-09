@@ -3,6 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/yaoxiaolinglong/mcp-mongodb-mysql-server?style=social)](https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yaoxiaolinglong/mcp-mongodb-mysql-server?style=social)](https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/network/members)
 [![GitHub license](https://img.shields.io/github/license/yaoxiaolinglong/mcp-mongodb-mysql-server)](https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/blob/main/LICENSE)
+[![Smithery](https://smithery.ai/badge/@yaoxiaolinglong/mcp-mongodb-mysql-server)](https://smithery.ai/server/@yaoxiaolinglong/mcp-mongodb-mysql-server)
 
 > 这是一个基于 [enemyrr/mcp-mysql-server](https://github.com/enemyrr/mcp-mysql-server) 项目的二次开发版本，添加了MongoDB支持。
 > 
@@ -26,9 +27,9 @@ The original project only supports MySQL database, but MongoDB is often needed i
 
 ### 通过Smithery安装 | Installing via Smithery
 
-通过[Smithery](https://smithery.ai/server/@enemyrr/mcp-mysql-server)为Claude Desktop自动安装MySQL/MongoDB数据库服务器：
+通过[Smithery](https://smithery.ai/server/@yaoxiaolinglong/mcp-mongodb-mysql-server)为Claude Desktop自动安装MySQL/MongoDB数据库服务器：
 
-To install MySQL/MongoDB Database Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@enemyrr/mcp-mysql-server):
+To install MySQL/MongoDB Database Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@yaoxiaolinglong/mcp-mongodb-mysql-server):
 
 ```bash
 npx -y @smithery/cli install @yaoxiaolinglong/mcp-mongodb-mysql-server --client claude
