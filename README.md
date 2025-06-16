@@ -8,7 +8,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/yaoxiaolinglong/mcp-mongodb-mysql-server?style=social)](https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yaoxiaolinglong/mcp-mongodb-mysql-server?style=social)](https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/network/members)
 [![GitHub license](https://img.shields.io/github/license/yaoxiaolinglong/mcp-mongodb-mysql-server)](https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/blob/main/LICENSE)
-[![Smithery](https://smithery.ai/badge/@yaoxiaolinglong/mcp-mongodb-mysql-server)](https://smithery.ai/server/@yaoxiaolinglong/mcp-mongodb-mysql-server)
+[![smithery badge](https://smithery.ai/badge/@yaoxiaolinglong/mcp-mongodb-mysql-server)](https://smithery.ai/server/@yaoxiaolinglong/mcp-mongodb-mysql-server)
 
 > 这是一个基于 [enemyrr/mcp-mysql-server](https://github.com/enemyrr/mcp-mysql-server) 项目的二次开发版本，添加了MongoDB支持。
 > 
