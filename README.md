@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/yaoxiaolinglong-mcp-mongodb-mysql-server-badge.png)](https://mseep.ai/app/yaoxiaolinglong-mcp-mongodb-mysql-server)
+
 # MCP-MongoDB-MySQL-Server
 
 [![GitHub stars](https://img.shields.io/github/stars/yaoxiaolinglong/mcp-mongodb-mysql-server?style=social)](https://github.com/yaoxiaolinglong/mcp-mongodb-mysql-server/stargazers)
