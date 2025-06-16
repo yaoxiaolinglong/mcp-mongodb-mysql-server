@@ -6,7 +6,7 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 
 # Copy package files and install dependencies
-COPY package.json package-lock.json ./
+COPY package*.json ./
 RUN npm install
 
 # Copy the entire source directory
@@ -28,7 +28,7 @@ WORKDIR /app
 COPY --from=builder /app/build ./build
 
 # Copy necessary package files
-COPY package.json package-lock.json ./
+COPY package*.json ./
 
 # Install production dependencies only
 RUN npm install --production
